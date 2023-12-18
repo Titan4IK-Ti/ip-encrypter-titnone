@@ -16,7 +16,7 @@ def replace_dots_with_custom_words(input_str):
     replaced_str = ''.join(replacements.get(char, char) if char != '.' else replacements[char][i % 3] for i, char in enumerate(input_str))
     return replaced_str
 
-result1 = "Hello my ip is: 123.456.789.0"
+result1 = "123.456.789.0" # ip example
 result2 = replace_dots_with_custom_words(result1)
 
 print(result2)
