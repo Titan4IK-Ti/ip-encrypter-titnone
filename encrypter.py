@@ -28,7 +28,7 @@ replacements = {
 
 reverse_replacements = create_reverse_replacements(replacements)
 
-encrypted_str = "banana beauty bicycle because carbon champion company but diesel economy finish because animal"
+encrypted_str = "banana beauty bicycle because carbon champion company but diesel economy finish because animal" # crypted ip example
 decrypted_str = decrypt_custom_words(encrypted_str, reverse_replacements)
 
 print(decrypted_str)
