@@ -1,5 +1,5 @@
 # ip-encrypter-titnone
-Easy ip encrypter TITNONE
+Easy ip encrypter TITNONE (VER 0.1)
 
 IP encryptor "TITNONE" a simple encryptor based on "bip39 word list"
 
